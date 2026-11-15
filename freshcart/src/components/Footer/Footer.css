@@ -1,0 +1,166 @@
+
+.freshcart-footer {
+  background-color: #f0f3f2;
+  margin-top: 60px;
+  padding: 40px 0 20px;
+  color: #21313c;
+}
+
+.freshcart-footer hr {
+  border-color: #dce1e1;
+  margin: 35px 0;
+}
+
+/* Features */
+
+.footer-features {
+  padding: 15px 0;
+}
+
+.footer-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #21313c;
+  padding: 15px 5px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.footer-feature svg {
+  color: #0aad0a;
+  margin-bottom: 12px;
+}
+
+.footer-feature h6 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.footer-feature p {
+  font-size: 13px;
+  color: #7b858a;
+  margin: 0;
+}
+
+.support-feature:hover {
+  color: #0aad0a;
+  transform: translateY(-5px);
+}
+
+.support-feature:hover p {
+  color: #0aad0a;
+}
+
+/* Main Footer */
+
+.footer-main {
+  padding-top: 15px;
+}
+
+.footer-logo {
+  display: inline-block;
+  color: #0aad0a;
+  font-size: 28px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Contact Information */
+
+.footer-contact-info p {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #667085;
+  font-size: 13px;
+  margin-bottom: 13px;
+}
+
+.footer-contact-info svg {
+  color: #0aad0a;
+  flex-shrink: 0;
+}
+
+.footer-contact-info a {
+  color: #667085;
+  text-decoration: none;
+}
+
+.footer-contact-info a:hover {
+  color: #0aad0a;
+}
+
+/* Footer Links */
+
+.footer-main h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-main ul li {
+  margin-bottom: 12px;
+}
+
+.footer-main ul li a {
+  color: #667085;
+  font-size: 13px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-main ul li a:hover {
+  color: #0aad0a;
+  padding-left: 4px;
+}
+
+/* Copyright */
+
+.footer-copyright {
+  color: #7b858a;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .freshcart-footer {
+    padding-top: 25px;
+  }
+
+  .footer-main {
+    text-align: left;
+  }
+
+  .footer-feature {
+    padding: 10px 3px;
+  }
+
+  .footer-feature h6 {
+    font-size: 13px;
+  }
+
+  .footer-feature p {
+    font-size: 11px;
+  }
+}
